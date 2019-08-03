@@ -12,10 +12,19 @@ class Scene002 extends Phaser.Scene{
         this.background.setOrigin(0,0);
         
         // player
-        this.player = this.add.sprite(40, (config.height / 2 + 180), 'player');
+        this.player = this.add.sprite(60, (config.height / 2 + 180), 'player');
+        //this.player = this.add.sprite
 
         // player scale down
         this.player.setScale(0.75);
+        
+        this.anims.create({
+            key: "player_anim",
+            frames: this.anims.generateFrameNumbers("player"),
+            frameRate: 10,
+            repeat: -1
+        });
+        this.player.play("player_anim");
 
         // mosquito
         this.mosquitoflock1 = this.add.sprite(config.width, 60, 'mosquitoflock');
@@ -29,7 +38,7 @@ class Scene002 extends Phaser.Scene{
         this.mosquitoflock3.setScale(0.3);
         this.mosquitoflock4.setScale(0.3);
         
-        this.add.text(config.width - 280,config.height - 50, "&#2466;&#2494;&#2453;&#2494;&#32;&#2486;&#2489;&#2480;&#32;&#2447;&#2454;&#2472;&#32;&#2447;&#2465;&#2495;&#2488;&#32;&#2478;&#2486;&#2494;&#2480;&#32;&#2470;&#2454;&#2482;&#2503;ে....",{font:"16px Arial", fill:"red"});
+        this.add.text(config.width - 350,config.height - 50, "Dengue Master 1.0",{fontFamily: "Faster One, cursive",fontSize:30, fill:"red"});
     }
     
     update(){

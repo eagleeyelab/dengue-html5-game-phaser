@@ -5,8 +5,12 @@ class Scene001 extends Phaser.Scene{
     
     preload(){
         this.load.image("bgstage002","assets/images/houses-101.png");
-        this.load.image('player', 'assets/images/user-101.png');
+        //this.load.image('player', 'assets/images/user-101.png');
         this.load.image('mosquitoflock', 'assets/images/mosquito-102.png');
+        this.load.spritesheet("player","assets/user-moving-103.png",{
+            frameWidth:195,
+            frameHeight:254
+        });
     }
     
     create (){
