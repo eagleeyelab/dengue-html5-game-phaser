@@ -1,12 +1,4 @@
-## IoT 101 : How to Setup a Headless Raspberry Pi Zero W
-
-[![IMAGE ALT TEXT](https://iot-analytics.com/wp/wp-content/uploads/2018/08/Number-of-global-device-connections-2015-2025-Number-of-IoT-Devices.png)](https://iot-analytics.com/state-of-the-iot-update-q1-q2-2018-number-of-iot-devices-now-7b/ "The growth of IoT by 2025")
-
-You can use the [editor on GitHub](https://github.com/eagleeyelab/iot-rpi-0-setup/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-[![IMAGE ALT TEXT](http://i3.ytimg.com/vi/C0FK7d4dJ5k/maxresdefault.jpg)](http://www.youtube.com/watch?v=C0FK7d4dJ5k "Introducing Raspberry Pi Zero W")
-
-
+## Dengue Master 1.0
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
