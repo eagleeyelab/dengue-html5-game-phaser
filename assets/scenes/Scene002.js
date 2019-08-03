@@ -29,7 +29,7 @@ class Scene002 extends Phaser.Scene{
         this.mosquitoflock3.setScale(0.3);
         this.mosquitoflock4.setScale(0.3);
         
-        this.add.text(config.width - 280,config.height - 50, "ঢাকা শহর এখন এডিস মশার দখলে....",{font:"16px Arial", fill:"red"});
+        this.add.text(config.width - 280,config.height - 50, "&#2466;&#2494;&#2453;&#2494;&#32;&#2486;&#2489;&#2480;&#32;&#2447;&#2454;&#2472;&#32;&#2447;&#2465;&#2495;&#2488;&#32;&#2478;&#2486;&#2494;&#2480;&#32;&#2470;&#2454;&#2482;&#2503;ে....",{font:"16px Arial", fill:"red"});
     }
     
     update(){
